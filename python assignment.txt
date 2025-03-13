@@ -1,0 +1,57 @@
+Keywords and Identifiers:
+a. Explain the difference between keywords and identifiers in Python.
+b. Can you use a Python keyword as an identifier? Why or why not?
+c. What are some examples of valid identifiers in Python?
+
+Statements & Comments:
+a. Describe the purpose of comments in Python code.
+b. What are the different types of statements in Python? Provide examples.
+c. How do you write a multi-line comment in Python?
+
+Python Variables:
+a. Explain the concept of variables in Python.
+b. What are the rules for naming variables in Python?
+c. How do you assign a value to a variable in Python?
+
+Python Datatypes:
+a. Describe the difference between mutable and immutable datatypes in Python.
+b. Provide examples of each of the following data types: int, float, str, list, tuple, dict.
+c. How do you check the data type of a variable in Python?
+
+Python Type Conversion:
+a. What is type conversion in Python?
+b. Explain the difference between implicit and explicit type conversion.
+c. Provide examples of explicit type conversion using built-in functions in Python.
+
+
+
+Keywords and Identifiers:
+a. Keywords are reserved words in Python with predefined meanings, whereas identifiers are names given to variables, functions, classes, etc. in a program.
+b. No, you cannot use a Python keyword as an identifier because keywords have special meanings in the language and are reserved for specific purposes.
+c. Valid identifiers in Python must start with a letter (a-z, A-Z) or an underscore (_) and can be followed by letters, digits (0-9), or underscores.
+
+Statements & Comments:
+a. Comments in Python are used to add explanatory notes to code, improve readability, or temporarily disable code execution. They are ignored by the Python interpreter.
+b. There are several types of statements in Python, including assignment statements, conditional statements (if-elif-else), loop statements (for, while), import statements, etc.
+c. Multi-line comments in Python are typically written using triple quotes (''' or """).
+
+Python Variables:
+a. Variables in Python are used to store data values that can be referenced and manipulated in a program.
+b. Rules for naming variables in Python include starting with a letter or underscore, not containing spaces or special characters (except underscore), and not being a keyword.
+c. You assign a value to a variable in Python using the assignment operator (=), e.g., x = 10.
+
+Python Datatypes:
+a. Mutable datatypes can be modified after creation (e.g., lists, dictionaries), while immutable datatypes cannot (e.g., integers, strings, tuples).
+b. Examples of Python data types include:
+- int: x = 10
+- float: y = 3.14
+- str: name = "John"
+- list: my_list = [1, 2, 3]
+- tuple: my_tuple = (1, 2, 3)
+- dict: my_dict = {"name": "John", "age": 30}
+c. You can check the data type of a variable in Python using the type() function, e.g., type(x).
+
+Python Type Conversion:
+a. Type conversion in Python refers to the process of converting one data type to another.
+b. Implicit type conversion, also known as coercion, occurs automatically by the interpreter, while explicit type conversion, also known as typecasting, requires the programmer to specify the conversion.
+c. Examples of explicit type conversion include converting a string to an integer using int() or converting an integer to a string using str().

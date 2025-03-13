@@ -1,0 +1,96 @@
+React Note 4/1/2024
+
+mdn web docs
+1. multiple library can use in react
+2. without library can use react
+
+
+1. state management:
+need to access the data in all pages (different pages)
+browser - url -- contain -- all will call as a page, each contain have row, columns and in rows and columns will have component (
+
+eg: linkedin
+create a accont -- at homepage will have our data, in profile and another page will have our data that data is stored in one place that place is called state management, that data is used in all the components for every page.
+
+2. create a new react project
+if npx create-react-app react_app_name will not create app, the need to run the below commands to create the project
+npm install create-react-app
+npx create-react-app react_app_name
+
+in statemangement have 1.whole(will use redux), 2.specifc to component
+1. once you kept in reduce will access across all the application irespective of component.
+2. eg: for every component have multiple fields - user, pwd, click ---> onclick function will allow to the API and internally need to store in use state or set state or will declare in one state declaration, for every method will have a function, onchange will have like a append function nothing but append as python eg, setStatement --  will use as a added varaibles to that.
+useState -- declaring the components, 
+setState will used for append
+
+
+
+
+SPI - single page interface or application.
+
+static file is index.html -- once you run the surver will initaialy load the index.html
+npm run dev
+
+
+
+
+04_April_2024
+5 topics
+1. ES-6
+2. TSx
+3. Components
+4. Working with react components - Props, Events Handling
+
+JSX = javascript xml notation
+ 
+
+11 Apr 2024
+assignment: call back functions, promisses,dispatch, when will use the ASYNC, AWAIT (
+
+State's:
+Introduction to states
+passinf data and states btwn components
+connecting react to external service'
+
+Hooks:
+
+
+
+State: a.local, b.Redix
+local:-
+const [initial, updated_data] = usestate(0);
+here 0 is the intial value
+
+
+Redix:
+if user login we need frst name, last name and password, button --->
+now i need in another page with user name, password & email ---->
+before redix we need the store for all thereducre
+Action, reducers & services are used in state
+when click on button will call e, function --> onClick = {handleSubmit} it dispatch the action
+const handleSubmit () => {
+will use Action
+}
+
+from action will call service-->(API) from API the filter data will use in reduce and that reduce data will se in component.
+
+**********************************
+onClick = {handleLogin}
+
+const handleLogin = (e) => {
+do some work
+}
+
+e.target.value;
+
+**************************************
+complex
+
+
+
+access
+refresh token 
+
+
+
+store, action, redux, services
